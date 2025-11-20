@@ -1,0 +1,78 @@
+
+# 2025-11-20 18:52:56.694151
++Code the following app
++```
++Idea: An alert service for large trades (“whale” orders) and abnormal volume.
++User goal: Catch moments when big players enter the market.
++Core features (MVP):
++
++* Real-time volume monitoring for several pairs.
++* Alert rules:
++
++Candle volume > X times the average.
++Single order > N $.
++
++
++* Notification delivery: Telegram bot or email.
++* History of recent “whale” events.
++
++Development plan:
++
++1. Connect to the exchange WebSocket API for streaming tickers/candles/trades.
++2. Implement a backend service that:
++
++aggregates volumes;
++compares them with a moving average;
++triggers events.
++
++
++3. Create a Telegram bot to deliver alerts.
++4. Build a minimal web interface for:
++
++setting thresholds,
++entering Telegram ID / email.
++
++
++5. Log events for history and simple charts.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-20 18:52:56.704116
++Code the following app
++```
++Idea: An alert service for large trades (“whale” orders) and abnormal volume.
++User goal: Catch moments when big players enter the market.
++Core features (MVP):
++
++* Real-time volume monitoring for several pairs.
++* Alert rules:
++
++Candle volume > X times the average.
++Single order > N $.
++
++
++* Notification delivery: Telegram bot or email.
++* History of recent “whale” events.
++
++Development plan:
++
++1. Connect to the exchange WebSocket API for streaming tickers/candles/trades.
++2. Implement a backend service that:
++
++aggregates volumes;
++compares them with a moving average;
++triggers events.
++
++
++3. Create a Telegram bot to deliver alerts.
++4. Build a minimal web interface for:
++
++setting thresholds,
++entering Telegram ID / email.
++
++
++5. Log events for history and simple charts.
++```
++
++Generate an app logo and update the app metadata title and description.
